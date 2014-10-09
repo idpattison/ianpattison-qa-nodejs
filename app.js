@@ -66,7 +66,7 @@ app.get('/', function(req, res){
 app.post('/', function(req, res){
   
   // Select healthcare as endpoint 
-  var parts = url.parse(service_url +'/v1/question/healthcare');
+  var parts = url.parse(service_url +'/v1/question/travel');
   // create the request options to POST our question to Watson
   var options = { host: parts.hostname,
     port: parts.port,
