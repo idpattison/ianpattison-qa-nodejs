@@ -1,0 +1,7 @@
+applications:
+- services:
+  - qa-service
+  name: ianpattison-qa-nodejs
+  command: node app.js
+  path: .
+  memory: 128M
